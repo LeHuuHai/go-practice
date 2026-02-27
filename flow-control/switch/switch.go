@@ -17,10 +17,8 @@ func main() {
 		fmt.Println("Other")
 	}
 
-	// switch không có condition -> kiểm tra điều kiện của case (<=> if else)
+	// switch không có biểu thức -> kiểm tra điều kiện của case (<=> if else)
 	switch {
-	case x > 1:
-		fmt.Println("q")
 	case x > 0:
 		fmt.Println("Positive") // Positive
 	case x < 0:
